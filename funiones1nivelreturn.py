@@ -33,7 +33,8 @@ def returnF(nombre):
     if nombre in funciones.keys():
         return funciones[nombre]
     return None
-print (returnF('max')(1,2,-7,9))
-print (returnF('min')(1,2,-7,9))
-print (returnF('med')(1,2,-7,9))
+if __name__=='__main__':
+    print (returnF('max')(1,2,-7,9))
+    print (returnF('min')(1,2,-7,9))
+    print (returnF('med')(1,2,-7,9))
     
